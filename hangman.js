@@ -185,7 +185,7 @@
 				attemptsLeftSpan.style.color = '#ccff33';
 				attemptsLeftSpan.style.backgroundColor = '#111';
 				attemptsLeftSpan.style.borderRadius = '8px';
-				validSpan.innerText = 'The Ship Was Sunk :(';
+				validSpan.innerText = 'The Ship Was Sunk';
 				validSpan.style.paddingTop = "8px";
 				validSpan.style.color = "#a00000";
 				document.getElementById('answerAreaE').style.opacity = '0.0';
