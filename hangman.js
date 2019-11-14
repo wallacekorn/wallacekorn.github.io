@@ -300,7 +300,7 @@ document.getElementById('letterGuess').select(); // selects input on load
 					lettersTriedArray.push(letterGuessed); // adds letter to lettersTriedArray to test for duplicates
 					// adds letter guessed to lettersTried box, with incorrect class
 					lettersTried.innerHTML += '<span class="incorrect"><strong> ' + letterGuessed + ' </strong></span>';
-					validSpan.innerText = 'Oh No, Ship Was Hit!'; // updates status text bar
+					validSpan.innerText = 'Ship Was Hit!'; // updates status text bar
 					validSpan.style.color = "#a00000"; // turns status text red so it appears more perilous :)
 					attemptsLeft -= 1; // removes tick from attemptsLeft Counter
 					shipHitCounter += 1; // adds tick to shipHitCounter for testing loss conditions and updating picture
@@ -409,7 +409,7 @@ document.getElementById('letterGuess').select(); // selects input on load
 					lettersTriedArray.push(letterGuessed); // adds letter to lettersTriedArray to test for duplicates
 					// adds letter guessed to lettersTried box, with incorrect class
 					lettersTried.innerHTML += '<span class="incorrect"><strong> ' + letterGuessed + ' </strong></span>';
-					validSpan.innerText = 'Oh No, Ship Was Hit!'; // updates status text bar
+					validSpan.innerText = 'Ship Was Hit!'; // updates status text bar
 					validSpan.style.color = "#a00000"; // turns status text red so it appears more perilous :)
 					attemptsLeft -= 1; // removes tick from attemptsLeft Counter
 					shipHitCounter += 1; // adds tick to shipHitCounter for testing loss conditions and updating picture
