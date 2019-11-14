@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play Hangman!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+
+<body>
+		<header>
+			<h1>Save The Ship!</h1>
+			<h5>"a hangman variant"</h5>		
+		</header>
+		
+		<main>
+			<img src="" id="shipPicture" alt="BattleShip"/>
+			
+			<div id="formArea">
+			<div id="textBar">
+				<span id="spanAttempts"></span>
+				<span id="spanValid"></span>
+			</div>
+				<div class="answerAreaWrapper">
+					<div class="answerArea" id="answerAreaE"></div>
+					<div class="answerArea" id="answerAreaF"></div>
+				</div>
+				
+				<div id="inputWrapper">
+					<input type="text" maxlength="1" id="letterGuess" title="Type A Character!" >
+					<input type="button" value="Try Your Luck" id="tryButton">
+				</div>
+				
+				<div id="lettersTried">
+					<h2>Letters Tried</h2>
+					<p id="lettersTriedP"></p>
+				</div>
+			</div> <!-- formArea div close -->
+		</main>
+		<footer>
+		<p>Created By David Amon 2019</p>
+		<p><strong>Profile:</strong> Main - Projects - Skills - Contact </p>
+		</footer>
+	<script type="text/javascript" src="hangman.js"></script>
+</body>
+</html>
